@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toronto Road Sign</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .sign {
+      background-color: #007A33;
+      color: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 3px solid white;
+      text-align: center;
+      position: relative;
+    }
+
+    .sign .shield {
+      background-color: white;
+      color: black;
+      padding: 5px 15px;
+      border-radius: 50% 50% 0 0;
+      font-weight: bold;
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .sign h1 {
+      font-size: 36px;
+      margin: 40px 0 20px;
+    }
+
+    .arrows {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .arrow {
+      font-size: 28px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sign">
+    <div class="shield">401</div>
+    <h1>Toronto</h1>
+    <div class="arrows">
+      <div class="arrow">⬇️</div>
+      <div class="arrow">⬇️</div>
+    </div>
+  </div>
+
+</body>
+</html>

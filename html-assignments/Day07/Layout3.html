@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Nested Within Table</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-size: 1.1em;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 10px 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #fddc82;
+    }
+
+    .nested-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0;
+    }
+
+    .nested-table th {
+      background-color: #e8e8e8;
+    }
+
+    .nested-table th,
+    .nested-table td {
+      border: 1px solid #000;
+      padding: 8px 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Table Nested Within Table</h1>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Job Title</th>
+      <th>Email address</th>
+      <th>Nested Table</th>
+    </tr>
+    <tr>
+      <td>Anna Fitzgerald</td>
+      <td>Staff Writer</td>
+      <td>example@company.com</td>
+      <td>
+        <table class="nested-table">
+          <tr>
+            <th>Home Phone</th>
+            <th>Cell Phone</th>
+          </tr>
+          <tr>
+            <td>888-888-880</td>
+            <td>888-888-881</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

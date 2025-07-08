@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  justify-content:
+}
+
+.login-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  background-color: #006699;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: #004d80;
+}
+
+.forgot {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #006699;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.register-box {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.register-btn {
+  background-color: #006699;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #004d80;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
